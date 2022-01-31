@@ -1,0 +1,26 @@
+nav {
+  color: #FFFFFF;
+  background-color: #4056A1;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.logo {
+  font-family: 'Bungee', cursive;
+  margin: 1.5em;
+  display: flex;
+  align-self: center;
+}
+
+div.newTweet {
+  margin-right: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+i {
+  color: #ff0000;
+  align-self: center;
+}

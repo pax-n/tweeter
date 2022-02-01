@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  height: 1.5em;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #545149;
+}
+
+div.buttonCounter {
+  font-family: 'Bungee', cursive;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 19px;
+  width: 80px;
+  height: 32px;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  border: none;
+}
+
+
+

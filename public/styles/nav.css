@@ -4,6 +4,7 @@ nav {
   height: 120px;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
 }
 
 span.logo {
@@ -24,3 +25,4 @@ i {
   color: #ff0000;
   align-self: center;
 }
+

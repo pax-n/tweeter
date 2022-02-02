@@ -54,14 +54,13 @@ article.tweet header {
 }
 
 span.profile {
-  width: 130px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 span img {
   width: 40px;
+  margin-right: 10px;
 }
 
 span.user {

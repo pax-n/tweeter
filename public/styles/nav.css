@@ -24,7 +24,7 @@ div.newTweet {
   align-self: center;
 }
 
-div i {
+i.fa-angles-down {
   color: #ff0000;
   align-self: center;
 }

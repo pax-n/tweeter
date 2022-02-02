@@ -25,8 +25,84 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
- main.container {
+main.container {
   background-color: #f4f1ec;
   padding-left: 5%;
   padding-right: 5%;
- }
+}
+
+article.tweet {
+  border: 3px solid #545149;
+  background-color: #f4f1ec;
+  margin-bottom: 1.5em;
+}
+
+article.tweet:hover {
+  box-shadow: 8px 8px #bcc2da;;
+}
+
+article.tweet header {
+  height: 40px;
+  width: 95%;
+  margin: 1em;
+  background-image: none;
+  background-color: #f4f1ec;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+span.profile {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span img {
+  width: 40px;
+}
+
+span.user {
+  font-weight: bold;
+  color: #bcc2da;
+}
+
+span.words {
+  background-color: #f4f1ec;
+  font-weight: bold;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+article.tweet footer {
+  background-color: #f4f1ec;
+  font-size: 17px;
+  border-top: 3px solid #545149;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer span.icons {
+  color: #4056A1;
+  width: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-flag:hover{
+  color:orange;
+}
+
+.fa-retweet:hover{
+  color:orange;
+}
+
+.fa-heart:hover{
+  color:orange;
+}

@@ -1,6 +1,7 @@
-header {
+body header {
   height: 400px;
   width: 100%;
+  margin-top: 120px;
   background-color: #ffdf00;
   background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
   display: flex;

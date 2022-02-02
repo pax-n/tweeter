@@ -5,6 +5,9 @@ nav {
   display: flex;
   justify-content: space-between;
   z-index: 100;
+  position: fixed;
+  top:0;
+  width:100%;
 }
 
 span.logo {
@@ -21,7 +24,7 @@ div.newTweet {
   align-self: center;
 }
 
-i {
+div i {
   color: #ff0000;
   align-self: center;
 }

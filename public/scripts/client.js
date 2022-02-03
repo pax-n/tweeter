@@ -31,13 +31,6 @@ $(document).ready(function() {
     }
   ]
 
-  const renderTweets = function(tweets) {
-    for (let tweet of tweets) {
-      const $tweet = createTweetElement(tweet);
-      $('#tweets-container').append($tweet);
-    }
-  }
-
   const createTweetElement = function(tweet) {
     let $tweet = `
     <article class="tweet">
@@ -62,6 +55,14 @@ $(document).ready(function() {
     return $tweet;
   }
 
+  const renderTweets = function(tweets) {
+    $('#tweets-container').empty();
+    for (let tweet of tweets) {
+      const $tweet = createTweetElement(tweet);
+      $('#tweets-container').prepend($tweet);
+    }
+  }
+
   const loadTweets = function () {
     $.ajax('/tweets', {method: 'GET'})
     .then(function (tweets) {
@@ -81,7 +82,14 @@ $(document).ready(function() {
     } else if (length === null || length === 0) {
       alert ( "Tweet cannot be empty!" );
     } else {
-      $.post('/tweets', param).then(() => {
+      $.ajax({
+        url: "/tweets",
+        data: $(this).serialize(), 
+        method: 'post',
+        success: function() {
+          $("form").find("textarea").val('');
+          loadTweets();
+        }
       })
     } 
   });

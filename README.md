@@ -27,6 +27,6 @@ Tweeting to nobody could be as fun as tweeting to people you don't even know!
 
 #### Tweet
 
-There's only one function to this app which is tweet due being only a front end design focused project.
+There's only one function to this app which is tweet due to being only a front-end design focused project.
 
 Writing something inside the text box and pressing tweet will generate random tweets from random users.

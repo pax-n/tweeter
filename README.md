@@ -22,11 +22,15 @@ Tweeting to nobody could be as fun as tweeting to people you don't even know!
 
 - Express
 - Node 5.10.x or above
+- Chance
+- Express
+- Body-parser
+- Timeago
 
 ## Using Tweeter
 
 #### Tweet
 
-There's only one function to this app which is tweet due to being only a front-end design focused project.
+There's only one function to this app which is TWEET due to being only a front-end design focused project.
 
-Writing something inside the text box and pressing tweet will generate random tweets from random users.
+Writing something inside the text box and pressing tweet will generate a random tweet from a random users.

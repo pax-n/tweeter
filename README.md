@@ -6,9 +6,9 @@ Tweeting to nobody could be as fun as tweeting to people you don't even know!
 
 ## Final Product
 
-!["Screenshot of desktop version"]()
+!["Screenshot of desktop version"](https://github.com/pax-n/tweeter/blob/master/docs/desktop-tweeter.png)
 
-!["Screenshot of tablet version"]()
+!["Screenshot of tablet version"](https://github.com/pax-n/tweeter/blob/master/docs/tablet-tweeter.png)
 
 ## Getting Started
 

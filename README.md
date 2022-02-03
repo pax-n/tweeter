@@ -33,4 +33,4 @@ Tweeting to nobody could be as fun as tweeting to people you don't even know!
 
 There's only one function to this app which is TWEET due to being only a front-end design focused project.
 
-Writing something inside the text box and pressing tweet will generate a random tweet from a random users.
+Writing something inside the text box and pressing tweet will generate a tweet from a random users.

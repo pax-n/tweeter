@@ -47,7 +47,7 @@ $(document).ready(function() {
         </span>
         <span class="user">${escape(tweet.user.handle)}</span>
       </header>
-      <span class="words">${escape(tweet.content.text)}</span>
+      <p class="words">${escape(tweet.content.text)}</p>
       <footer>
         <span>${escape(timeago.format(tweet.created_at))}</span>
         <span class="icons">

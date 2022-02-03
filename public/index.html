@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
 
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/article-tweet.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -44,16 +45,14 @@
       </div>
       <br>
       <div class="name">
-        <h2><b>Paxton</b> Nguyen</h2>
+        <h2>Paxton Nguyen</h2>
       </div>
     </header>
 
-    <div id="warning">
-      <i class="fa-solid fa-circle-exclamation"></i>
-      <i class="fa-solid fa-circle-exclamation"></i>
-    </div>
     <!-- Page-specific (main) content here -->
     <main class="container">
+      <div id="warning">
+      </div>
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form id="submit">
@@ -75,7 +74,7 @@
             </span>
             <span class="user">@SirIsaacJr</span>
           </header>
-          <span class="words">If I have seen further it is by standing on the shoulders of peanuts</span>
+          <p class="words">If I have seen further it is by standing on the shoulders of peanuts</p>
           <footer>
             <span>10 days ago</span>
             <span class="icons">
